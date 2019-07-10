@@ -1,8 +1,10 @@
 *{
-  margin: 30px;
+  margin: 15px;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FED26C;
+  /* background-color: #EFC2DE; */
+  background-color:#FECC68 ;
+
   font-family:fantasy;
 
 }
@@ -10,7 +12,10 @@
 h1 {
   text-align: center;
   font-size: 70px;
-}
+  background-color: #F9D48C;
+
+
+  }
 
 
 
@@ -25,10 +30,15 @@ h1 {
 }
 
 img {
-  height : 400px;
-  width: 450px;
+  height : 350px;
+  width: 400px;
+  background-color: white;
+
 
   object-fit: cover;
+
+  border: 20px solid #fff;
+  border-bottom: 60px solid #fff;
 
 
 }
@@ -40,5 +50,5 @@ img {
 
   align-items: flex-start;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content:space-between;
 }
